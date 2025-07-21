@@ -1,0 +1,39 @@
+{
+  "name": "gmr",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 7009",
+    "build": "next build",
+    "start": "next start -p 7009",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.10",
+    "chart.js": "^4.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "mqtt": "^5.13.1",
+    "mysql2": "^3.14.2",
+    "next": "15.3.4",
+    "postcss": "^8.5.6",
+    "react": "^19.0.0",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "^19.0.0",
+    "recharts": "^3.0.0",
+    "tailwindcss": "^4.1.10",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/chart.js": "^4.0.1",
+    "@types/mqtt": "^2.5.0",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.4",
+    "typescript": "^5"
+  }
+}
